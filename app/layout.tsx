@@ -20,6 +20,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={fontSans.variable}>{children}</body>
+			<script async src="https://emailcatcher.io/api/snippet?id=xhxzjisobfo"></script>
 		</html>
 	);
 }
