@@ -168,6 +168,46 @@ const projects :{
 		platform: "Vercel",
 		deploy_link: "https://moonex-liard.vercel.app/",
 	},
+	{
+		name: "SDstudios",
+		description:
+			"Modern website which provides web development services with your favorite tech-stack",
+		tags: [
+			{
+				name: "Next.js",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Django",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Java",
+				color: "pink-text-gradient",
+			},
+		],
+		image: "/projectimg/sdstudios.png",
+		platform: "Vercel",
+		deploy_link: "https://sdstudios-django.vercel.app/",
+	},
+	{
+		name: "SuperMetrics",
+		description:
+			"An impressive UI built with Next.js with different components",
+		tags: [
+			{
+				name: "Next.js",
+				color: "green-text-gradient",
+			},
+			{
+				name: "TailwindCss",
+				color: "orange-text-gradient",
+			},
+		],
+		image: "/projectimg/supermetrics.png",
+		platform: "Vercel",
+		deploy_link: "https://supermetrics.vercel.app/",
+	},
 ];
 
 export { services, technologies, experiences, testimonials, projects };
